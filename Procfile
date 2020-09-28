@@ -1,1 +1,1 @@
-web: guinicorn django_project.wsgi
+web: python manage.py runserver
