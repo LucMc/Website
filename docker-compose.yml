@@ -2,18 +2,9 @@ version: '3'
 
 services:
   web:
-    environment:
-      - REDIS_URL=redis
     build: .
-    command: python asteroid_project/manage.py runserver 0.0.0.0:8000
+    command: python manage.py runserver 0.0.0.0:8000
     volumes:
       - .:/code
     ports:
       - "8000:8000"
-    links:
-      - redis
-  redis:
-    image: redis
-    command: redis-server
-    ports:
-      - '6379:6379'
