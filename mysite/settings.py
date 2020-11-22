@@ -41,7 +41,7 @@ SECRET_KEY = '!&c+@hue$__3z9fo!u*@mydxefo6#l&b&__4r($*pyvc2vjn70'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = False
 
-ALLOWED_HOSTS = ['127.0.0.1', 'lucmccutcheon.herokuapp.com']
+ALLOWED_HOSTS = ['127.0.0.1', 'lucmccutcheon.herokuapp.com', 'still-dawn-9rgbb7024hqaubyvp5p340ln.herokudns.com']
 
 
 # Application definition
