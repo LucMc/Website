@@ -8212,7 +8212,6 @@ h1, h2, h3, h4, h5,
   width: 100%; }
 
 #sidebar {
-  min-width: 250px;
   max-width: 250px;
   height: 100%;
   background: #212428;
