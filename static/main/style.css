@@ -181,9 +181,6 @@ caption {
   text-align: left;
   caption-side: bottom; }
 
-th {
-  text-align: inherit; }
-
 label
 {
   display: inline-block;
